@@ -21,6 +21,7 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 nav {
@@ -69,4 +70,36 @@ nav {
   height: 200px;
   width: 300px;
   padding: 10px;
+}
+
+.largelocations {
+  margin-top: 50px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+}
+.locations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.blackbox {
+  background-color: black;
+  width: 300px;
+  padding: 15px 10px 0px 10px;
+  opacity: 1.0;
+}
+
+.contact {
+  height: 200px;
+  margin-top: 50px;
+}
+
+.footer {
+  text-align: left;
+  padding-left: 20px;
+  display: flex;
+  align-items: flex-start;
 }
