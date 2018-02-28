@@ -8,6 +8,10 @@ Header {
   z-index: 1;
 }
 
+a {
+  color: seashell;
+}
+
 body {
   font-family: Helvetica;
   font-size: 22px;
@@ -16,7 +20,7 @@ body {
   opacity: 0.9;
   text-align: center;
   display: flex;
-  align-items: column;
+  flex-direction: column;
 }
 
 nav {
@@ -47,5 +51,22 @@ nav {
 .missiontext {
   background-color: black;
   opacity: 0.9px;
+}
 
+.teaofmonth {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 500px;
+  background-color: black;
+  margin:auto;
+}
+
+
+.teaofmonth img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
 }
