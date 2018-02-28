@@ -6,10 +6,13 @@ Header {
   width: 100%;
   align-items: center;
   z-index: 1;
+  background-color: black;
 }
 
 a {
   color: seashell;
+  padding: 10px;
+  text-decoration: underline;
 }
 
 body {
@@ -26,7 +29,7 @@ body {
 
 nav {
   display: inline-block;
-  text-decoration: underline;
+
   padding-right: 14px;
 }
 
@@ -98,8 +101,5 @@ nav {
 }
 
 .footer {
-  text-align: left;
-  padding-left: 20px;
-  display: flex;
-  align-items: flex-start;
+  padding-right: 980px;
 }
